@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!-- Device trees -->
-    <project name="PixelOS-Devices/device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="twelve" />
-
-    <!-- Vendor trees -->
-    <project name="PixelOS-Devices/vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="twelve" />
-
-    <!-- Kernel tree and clang -->
-    <project name="PixelOS-Devices/kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="twelve" clone-depth="1" />
-    <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="prebuilts/clang/host/linux-x86/clang-sdllvm" remote="github" revision="ruby-12" clone-depth="1" />
-
     <!-- Needed custom Projects -->  
    <project path="device/qcom/sepolicy/vndr" name="jjpprrrr/device_qcom_sepolicy_vndr" revision="twelve" remote="github" />
    
@@ -26,5 +15,4 @@
    <remove-project name="vendor_qcom_opensource_system_bt" /> 
    <remove-project name="vendor_qcom_opensource_packages_apps_Bluetooth" />
    <remove-project name="vendor_qcom_opensource_bluetooth_ext" />
-    
 </manifest>
