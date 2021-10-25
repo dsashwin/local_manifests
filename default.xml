@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Needed custom Projects -->  
-   <project path="device/qcom/sepolicy/vndr" name="jjpprrrr/device_qcom_sepolicy_vndr" revision="twelve" remote="github" />
+   <project path="device/qcom/sepolicy/vndr" name="PixelOS-Devices/device_qcom_sepolicy_vndr" revision="twelve" remote="github" />
    
    <remove-project name="frameworks_base" />
    <remove-project name="frameworks_native" />
