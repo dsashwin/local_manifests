@@ -12,11 +12,6 @@
     <!-- MIUI Camera -->
     <project name="ArrowOS-Devices/android_vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="arrow-12.0-a3" />
     
-    <!-- QTI Bluetooth Repos -->
-    <remove-project name="vendor_qcom_opensource_system_bt" /> 
-    <remove-project name="vendor_qcom_opensource_packages_apps_Bluetooth" />
-    <remove-project name="vendor_qcom_opensource_bluetooth_ext" />
-    
     <!-- Custom NFC Repos -->
     <remove-project name="vendor_nxp_interfaces_opensource_nfc" />
     <remove-project name="vendor_nxp_opensource_external_libnfc-nci" />
