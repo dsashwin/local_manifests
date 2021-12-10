@@ -25,7 +25,7 @@
     <remove-project name="frameworks_base" />
     <remove-project name="packages_apps_Settings" />
     <remove-project name="vendor_aosp" />
-    <remove-project name="build/make" />
+    <remove-project name="build" />
     <remove-project name="device_qcom_sepolicy_vndr" />
     <remove-project name="hardware_qcom-caf_sm8150_display" />
     <remove-project name="hardware_qcom-caf_sm8150_media" />
