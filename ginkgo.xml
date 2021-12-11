@@ -36,6 +36,18 @@
     <remove-project name="hardware_qcom-caf_msm8996_media" />
     <remove-project name="hardware_qcom-caf_msm8996_display" />
     <remove-project name="hardware_qcom-caf_msm8996_audio" />
+    <remove-project name="hardware_qcom-caf_sm8250_audio" />
+    <remove-project name="hardware_qcom-caf_sm8250_display" />
+    <remove-project name="hardware_qcom-caf_sm8250_media" />
+    <remove-project name="hardware_qcom-caf_msm8996-r_media" />
+    <remove-project name="hardware_qcom-caf_msm8996-r_display" />
+    <remove-project name="hardware_qcom-caf_msm8996-r_audio" />
+    <remove-project name="hardware_qcom-caf_sdm845_media" />
+    <remove-project name="hardware_qcom-caf_sdm845_display" />
+    <remove-project name="hardware_qcom-caf_sdm845_audio" />
+    <remove-project name="hardware_qcom-caf_msm8998_media" />
+    <remove-project name="hardware_qcom-caf_msm8998_display" />
+    <remove-project name="hardware_qcom-caf_msm8998_audio" />
     
      <!-- Custom Repos -->
     <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-sm8150" />
@@ -74,19 +86,10 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996-r/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-r/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
