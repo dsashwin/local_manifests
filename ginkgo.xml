@@ -32,9 +32,9 @@
     <remove-project name="hardware_qcom-caf_sm8150_audio" />
     
      <!-- Custom Repos -->
-    <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom-caf_audio" remote="github" revision="arrow-12.0-caf-sm8150" />
-    <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom-caf_display" remote="github" revision="arrow-12.0-caf-sm8150"  />
-    <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom-caf_media" remote="github" revision="arrow-12.0-caf-sm8150"  />
+    <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-sm8150"  />
+    <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.0-caf-sm8150"  />
     
     <project path="frameworks/base" name="PixelOS-Pixelish/frameworks_base" remote="github" revision="twelve" />
     <project path="packages/apps/Settings" name="PixelOS-Pixelish/packages_apps_Settings" remote="github" revision="twelve" />
