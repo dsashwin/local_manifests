@@ -14,13 +14,13 @@
     <project name="ArrowOS-Devices/android_vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="arrow-12.0-a3" />
     
     <!-- Custom NFC Repos -->
-    <remove-project name="vendor_nxp_interfaces_opensource_nfc" />
-    <remove-project name="vendor_nxp_opensource_external_libnfc-nci" />
+    <remove-project name="vendor_nxp_opensource_interfaces_nfc" />
+    <remove-project name="vendor_nxp_opensource_commonsys_external_libnfc-nci" />
     <remove-project name="vendor_nxp_opensource_sn100x_halimpl" />
     <remove-project name="vendor_nxp_opensource_pn5xx_halimpl" />
     <remove-project name="packages_apps_Nfc" />
-    <remove-project name="vendor_nxp_opensource_frameworks" />    
-    <remove-project name="vendor_nxp_opensource_packages_apps_Nfc" />
+    <remove-project name="vendor_nxp_opensource_commonsys_frameworks" />    
+    <remove-project name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" />
     <remove-project name="vendor_nxp_opensource_sn100x_hidlimpl" />
     <remove-project name="vendor_nxp_opensource_pn5xx_hidlimpl" />
     <remove-project name="frameworks_base" />
@@ -55,8 +55,8 @@
     <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-sm8150"  />
     <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.0-caf-sm8150"  />
     
-    <project path="frameworks/base" name="PixelOS-Pixelish/frameworks_base" remote="github" revision="twelve" />
-    <project path="packages/apps/Settings" name="PixelOS-Pixelish/packages_apps_Settings" remote="github" revision="twelve" />
+    <project path="frameworks/base" name="PixelOS-Pixelish/frameworks_base" remote="github" revision="twelve-dec" />
+    <project path="packages/apps/Settings" name="PixelOS-Pixelish/packages_apps_Settings" remote="github" revision="twelve-dec" />
     <project path="vendor/aosp" name="PixelOS-Pixelish/vendor_aosp" remote="github" revision="twelve" />
     <project path="device/qcom/sepolicy_vndr" name="PixelOS-Pixelish/device_qcom_sepolicy_vndr" remote="github" revision="twelve"/>
     
