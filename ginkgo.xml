@@ -40,9 +40,6 @@
     <remove-project name="hardware_qcom-caf_sm8250_audio" />
     <remove-project name="hardware_qcom-caf_sm8250_display" />
     <remove-project name="hardware_qcom-caf_sm8250_media" />
-    <remove-project name="hardware_qcom-caf_msm8996-r_media" />
-    <remove-project name="hardware_qcom-caf_msm8996-r_display" />
-    <remove-project name="hardware_qcom-caf_msm8996-r_audio" />
     <remove-project name="hardware_qcom-caf_sdm845_media" />
     <remove-project name="hardware_qcom-caf_sdm845_display" />
     <remove-project name="hardware_qcom-caf_sdm845_audio" />
